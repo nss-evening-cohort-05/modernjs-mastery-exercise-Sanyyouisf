@@ -1,3 +1,4 @@
+
 #logo {
 	width: 300px;
 	height: 100px;
@@ -5,8 +6,9 @@
 	color: white;font-weight: bold;
 	font-size: 4rem;
 	text-align: center;
-	display: block;
+	/*display: block;*/
 }
+
 #text {
 	width: 100px;
 	height: 50px;
@@ -14,13 +16,61 @@
 	color: white;font-weight: bold;
 	font-size: 1.5rem;
 	text-align: center;
-	display: inline-block;
+	/*display: inline-block;*/
 }
 
 body {
-	background-color: #a9a9a9;
+	background-color: #504a4a;
 }
 
 .hidden {
 	display: none;
 }
+
+img {
+	border-radius: 50%;
+	text-align: center;
+}
+
+.description {
+	color: red;
+	text-align: center;
+}
+
+.col {
+	border: 1px white solid;
+	margin: 5px;
+	padding: 5px;
+	min-height: 400px;	
+}
+
+.name {
+	background-color: orange;
+	min-width: 100%;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+
+.mBoarder {
+	border: 5px blue solid;
+	border-radius: 50%;
+}
+
+.fBoarder {
+	border: 5px pink solid;
+	border-radius: 50%;
+}
+.btn {
+	margin: 10px;
+	background-color: #518cca;
+	color: white;
+}
+
+.navbar {
+	background-color: black;
+}
+
+
+
+
