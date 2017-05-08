@@ -55,23 +55,24 @@ $(document).ready(function() {
             //add gender boarder
             if (actorsArray[i].gender_id === 0) {
                 domString += `<center><img  class= "image fBoarder" src="${actorsArray[i].image}"></center>`;
-            } else if (actorsArray[i].gender_id === 1) {
+            } 
+            else if (actorsArray[i].gender_id === 1) {
                 domString += `<center><img  class= "image mBoarder" src="${actorsArray[i].image}"></center>`;
             }
             //add description
             if (actorsArray[i].gender_id === 0 && actorsArray[i].description === "") {
                 domString += `<p class="description"> abcde fghij klmno pqrst uvwxy z </p>`;
-            } else if (actorsArray[i].gender_id === 1 && actorsArray[i].description === "") {
+            } 
+            else if (actorsArray[i].gender_id === 1 && actorsArray[i].description === "") {
                 domString += `<p class="description"> 1234567890 </p>`;
             }
-
             domString += `<p class="description">${actorsArray[i].description}</p>`;
             domString += `</div>`;//for col
             if ((j%4) ===0){
 			// closing the row after three columns
 		 		domString +=`</div>`;
 			}
-    	};
+    	}
     	$("#output").append(domString);
     };
 
@@ -84,9 +85,9 @@ $(document).ready(function() {
                     let teamName = teams[j].name;
                     characters[i].teamName = teamName;
                     actorsArray.push(characters[i]);
-                };
-            };
-        };
+                }
+            }
+        }
     };
 
 
