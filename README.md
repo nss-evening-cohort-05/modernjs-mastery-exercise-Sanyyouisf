@@ -28,7 +28,7 @@
 	- There should be 4 panels in each row
 	- Each row should have a bootstrap row class
 
-![Blog Screengrab]()
+![Blog Screengrab](https://github.com/nss-evening-cohort-05/modernjs-mastery-exercise-Sanyyouisf/blob/readme-image/Quizimage.png)
 
 ## Technologies
 
